@@ -2,7 +2,7 @@
 
 Wir können Dictionairies brauchen um Daten mithilfe von _**key**-**value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
 Der Name kommt _dictionary_ bedeutet auf deutsch **Lexikon** bzw. **Nachschlagewerk**, was genau der Sinn der dictionaries in Python ist.  
-Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/dicts/examples.py) zu finden.
+Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) zu finden.
 
 ---
 
