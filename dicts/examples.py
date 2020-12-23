@@ -1,4 +1,4 @@
-# Beispiel zum Zugriff auf Values:
+# Beispiel zum Zugriff auf das Dictionairy:
 beispiel = {
     "key1": "value1",
     "key2": "value2",
@@ -8,12 +8,17 @@ beispiel = {
 ausgabe = beispiel["key2"]
 print(ausgabe) # Man erhält "value2".
 
+print(beispiel.keys())
+
+print(beispiel.values())
+
+print(beispiel.items())
 
 # Beispiele zum Bearbeiten des Dictionairies:
 beispiel["key2"] = "newValue2"
 print(beispiel["key2"]) # Man erhält nun "newValue2".
 
-beispiel["key4"] = "gugus" # der key "key4" wird mit dem wert "gugus" erstelltt
+beispiel["key4"] = "gugus" # der key "key4" wird mit dem wert "gugus" erstellt.
 print(beispiel)  # Man sieht, dass der neue Wert hinzugefügt wurde.
 
 
