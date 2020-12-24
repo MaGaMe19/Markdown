@@ -91,12 +91,15 @@ zeugnis = {
 }
 
 def ausdrucken(z):
+    # Name, Klasse und Alter drucken:
     for i,j in list(z.items())[0:3]:
+        # Dem Alter "Jahre" hinzufügen:
         if i == "alter":
             j = str(j) + " Jahre"
         print(f"{i.capitalize()}: {j}")
     
     print()
+    # Die Noten ausdrucken:
     for k,l in z["noten"].items():
         output = f"{k.capitalize()}:"
         for m in l:
