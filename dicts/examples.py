@@ -72,3 +72,35 @@ schüler = {
     },
 }
 print(schüler["Fritz"]["noten"][1])
+
+
+# Das kompliziertere Beispiel zum Zeugnis:
+zeugnis = {
+    "name": "Fritz Müller",
+    "klasse": "8b",
+    "alter": 16,
+    
+    "noten": {
+        "deutsch": [5.3, 3.8, 4.7],
+        "englisch": [5.6, 4.8, 3.1],
+        "mathematik": [3.5, 4.4, 5.0],
+        "chemie": [5.8, 3.7, 4.8],
+        "physik": [5.9, 3.1, 5.3],
+        "informatik": [5.9, 5.6, 5.7],
+    }
+}
+
+def ausdrucken(z):
+    for i,j in list(z.items())[0:3]:
+        if i == "alter":
+            j = str(j) + " Jahre"
+        print(f"{i.capitalize()}: {j}")
+    
+    print()
+    for k,l in z["noten"].items():
+        output = f"{k.capitalize()}:"
+        for m in l:
+            output += f" [{str(m)}]"
+        print(output)
+
+ausdrucken(zeugnis)
