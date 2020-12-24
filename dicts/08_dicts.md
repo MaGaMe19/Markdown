@@ -170,12 +170,11 @@ schüler = {
     },
 }
 ```
-Das ganze kann jedoch schnell kompliziert werden.  
-Um z.B. Fritz' zweite Note zu erhalten, müsste man so vorgehen:
+Das ganze kann jedoch schnell kompliziert werden - um z.B. Fritz' zweite Note zu erhalten, müsste man so vorgehen:
 
 ```Python
 >>> schüler["Fritz"]["noten"][1]
-4.5
+ 4.5
 ```
 
 <br>
@@ -184,8 +183,48 @@ Um z.B. Fritz' zweite Note zu erhalten, müsste man so vorgehen:
 
 ## Beispiel
 
-_Zeugnis mit Noten_ testing.py
+Hier ein etwas komplizierteres Beispiel, um ein Schulzeugnis in einem Dictionairy zu speichern und anschliessend schön auszudrucken:
 
 ```Python
+zeugnis = {
+    "name": "Fritz Müller",
+    "klasse": "8b",
+    "alter": 16,
+    
+    "noten": {
+        "deutsch": [5.3, 3.8, 4.7],
+        "englisch": [5.6, 4.8, 3.1],
+        "mathematik": [3.5, 4.4, 5.0],
+        "chemie": [5.8, 3.7, 4.8],
+        "physik": [5.9, 3.1, 5.3],
+        "informatik": [5.9, 5.6, 5.7],
+    }
+}
 
+def ausdrucken(z):
+    for i,j in list(z.items())[0:3]:
+        if i == "alter":
+            j = str(j) + " Jahre"
+        print(f"{i.capitalize()}: {j}")
+    
+    print()
+    for k,l in z["noten"].items():
+        output = f"{k.capitalize()}:"
+        for m in l:
+            output += f" [{str(m)}]"
+        print(output)
+```
+
+```Python
+>>> ausdrucken(zeugnis)
+ Name: Fritz Müller
+ Klasse: 8b
+ Alter: 16 Jahre
+
+ Deutsch: [5.3] [3.8] [4.7]
+ Englisch: [5.6] [4.8] [3.1]
+ Mathematik: [3.5] [4.4] [5.0]
+ Chemie: [5.8] [3.7] [4.8]
+ Physik: [5.9] [3.1] [5.3]
+ Informatik: [5.9] [5.6] [5.7]
 ```
