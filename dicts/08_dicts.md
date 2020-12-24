@@ -202,18 +202,23 @@ zeugnis = {
 }
 
 def ausdrucken(z):
+    # Name, Klasse und Alter drucken:
     for i,j in list(z.items())[0:3]:
+        # Dem Alter "Jahre" hinzufügen:
         if i == "alter":
             j = str(j) + " Jahre"
         print(f"{i.capitalize()}: {j}")
     
     print()
+    # Die Noten ausdrucken:
     for k,l in z["noten"].items():
         output = f"{k.capitalize()}:"
         for m in l:
             output += f" [{str(m)}]"
         print(output)
 ```
+
+Das Ganze sieht ausgedruckt dann so aus:
 
 ```Python
 >>> ausdrucken(zeugnis)
@@ -228,3 +233,11 @@ def ausdrucken(z):
  Physik: [5.9] [3.1] [5.3]
  Informatik: [5.9] [5.6] [5.7]
 ```
+
+Wichtig ist hierbei natürlich, dass das Zeugnis in dem oben gezeigten "Format" geschrieben wird.
+
+---
+
+&nbsp;  
+
+##### Copyright &copy; 2020 Mattia. All rights reserved.
