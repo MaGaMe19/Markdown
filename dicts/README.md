@@ -1,1 +1,1 @@
-[08_dicts.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) ist eine Erklärung zu Dictionairies in Python mit Hilfe von Markdown im Rahmen des Informatikunterrichts am Gymnasium Neufeld.
+[08_dicts.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/08_dicts.md) ist eine Erklärung zu Dictionairies in Python mit Hilfe von Markdown im Rahmen des Informatikunterrichts am Gymnasium Neufeld.
