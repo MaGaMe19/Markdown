@@ -18,8 +18,8 @@ print(beispiel.items())
 beispiel["key2"] = "newValue2"
 print(beispiel["key2"]) # Man erhält nun "newValue2".
 
-beispiel["key4"] = "gugus" # der key "key4" wird mit dem wert "gugus" erstellt.
-print(beispiel)  # Man sieht, dass der neue Wert hinzugefügt wurde.
+beispiel["key4"] = "value4" # der Key "key4" wird mit dem Value "value4" erstellt.
+print(beispiel)  # Man sieht, dass der neue Value hinzugefügt wurde.
 
 
 # Beispiel zu Strings als Key:
