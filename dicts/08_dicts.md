@@ -6,7 +6,7 @@
 
 <br>
 
-Wir können Dictionairies brauchen um Daten mithilfe von _**key**-**value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
+Wir können Dictionairies brauchen um Daten mithilfe von _**Key**-**Value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
 Der Name _dictionary_ bedeutet auf deutsch **Lexikon** bzw. **Nachschlagewerk**, was genau der Sinn der dictionaries in Python ist.  
 Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) zu finden.  
 <br>
@@ -31,7 +31,7 @@ Wichtig: Ohne Kommas hinter jedem Eintrag funktioniert das Ganze nicht!
 
 ## Grundfuktionen
 
-Verwendetes dictionairy für diese Erklärung:
+Verwendetes Dictionairy für diese Erklärung:
 
 ```Python
 beispiel = {
@@ -51,17 +51,17 @@ ausgabe = beispiel["key2"]
 ```
 Das Zugreifen auf Values innerhalb von Dictionairies ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **namen des Keys** in die eckigen Klammern.  
 <br>
-Eine andere Methode um die Keys bzw. die Values zu erhalten ist die Verwendung der Funktionen _.keys()_, _.values()_ sowie _.items()_:
+Eine andere Methode um die Keys bzw. die Values zu erhalten ist die Verwendung der Funktionen **.keys()**, **.values()** sowie **.items()**:
 
 ```Python
 >>> beispiel.keys()
-dict_keys(['key1', 'key2', 'key3'])
+ dict_keys(['key1', 'key2', 'key3'])
 
 >>> beispiel.values()
-dict_values(['value1', 'value2', 'value3'])
+ dict_values(['value1', 'value2', 'value3'])
 
 >>> beispiel.items()
-dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3')])
+ dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3')])
 ```
 Die Outputs dieser Funktionen könnte man z.B. mit einem For-Loop darstellen.  
 (siehe [Beispiel zu Zahlen als Key](https://github.com/MaGaMe19/Markdown/blob/master/dicts/08_dicts.md#zahlen))  
@@ -69,7 +69,7 @@ Die Outputs dieser Funktionen könnte man z.B. mit einem For-Loop darstellen.
 
 ### Bearbeiten des Dictionairies
 
-Wir können Werte verändern...
+Wir können Values verändern...
 ```Python
 beispiel["key2"] = "newValue2"
 
@@ -77,13 +77,13 @@ beispiel["key2"] = "newValue2"
  newValue2
 ```
 
-...oder auch Werte hinzufügen:
+...oder auch Values hinzufügen:
 
 ```Python
-beispiel["key4"] = "gugus" # der key "key4" wird mit dem wert "gugus" erstellt.
+beispiel["key4"] = "value4" # der Key "key4" wird mit dem Value "value4" erstellt.
 
 >>> print(beispiel)
- {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'gugus'}
+ {'key1': 'value1', 'key2': 'value2', 'key3': 'value3', 'key4': 'value4'}
 ```  
 <br>
 
@@ -240,4 +240,4 @@ Wichtig ist hierbei natürlich, dass das Zeugnis in dem oben gezeigten "Format" 
 
 &nbsp;  
 
-##### Copyright &copy; 2020 Mattia. All rights reserved.
+##### Copyright &copy; 2020 MaGaMe19. All rights reserved.
