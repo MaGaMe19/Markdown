@@ -1,12 +1,12 @@
-# Dictionairies
+# Dictionaries
 
-![Dictionairy](https://www.collinsdictionary.com/images/full/dictionary_168552845.jpg)
+![Dictionary](https://www.collinsdictionary.com/images/full/dictionary_168552845.jpg)
 
 ###### Quelle: Collin's Dictionary
 
 <br>
 
-Wir können Dictionairies brauchen um Daten mithilfe von _**Key**-**Value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
+Wir können Dictionaries brauchen um Daten mithilfe von _**Key**-**Value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
 Der Name _dictionary_ bedeutet auf deutsch **Lexikon** bzw. **Nachschlagewerk**, was genau der Sinn der dictionaries in Python ist.  
 Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) zu finden.  
 <br>
@@ -31,7 +31,7 @@ Wichtig: Ohne Kommas hinter jedem Eintrag funktioniert das Ganze nicht!
 
 ## Grundfuktionen
 
-Verwendetes Dictionairy für diese Erklärung:
+Verwendetes Dictionary für diese Erklärung:
 
 ```Python
 beispiel = {
@@ -42,14 +42,14 @@ beispiel = {
 ```  
 <br>
 
-### Zugriff auf das Dictionairy
+### Zugriff auf das Dictionary
 ```Python
 ausgabe = beispiel["key2"]
 
 >>> print(ausgabe)
  value2
 ```
-Das Zugreifen auf Values innerhalb von Dictionairies ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **namen des Keys** in die eckigen Klammern.  
+Das Zugreifen auf Values innerhalb von Dictionaries ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **namen des Keys** in die eckigen Klammern.  
 <br>
 Eine andere Methode um die Keys bzw. die Values zu erhalten ist die Verwendung der Funktionen **.keys()**, **.values()** sowie **.items()**:
 
@@ -67,7 +67,7 @@ Die Outputs dieser Funktionen könnte man z.B. mit einem For-Loop darstellen.
 (siehe [Beispiel zu Zahlen als Key](https://github.com/MaGaMe19/Markdown/blob/master/dicts/08_dicts.md#zahlen))  
 <br>
 
-### Bearbeiten des Dictionairies
+### Bearbeiten des Dictionaries
 
 Wir können Values verändern...
 ```Python
@@ -183,7 +183,7 @@ Das ganze kann jedoch schnell kompliziert werden - um z.B. Fritz' zweite Note zu
 
 ## Beispiel
 
-Hier ein etwas komplizierteres Beispiel, um ein Schulzeugnis in einem Dictionairy zu speichern und anschliessend schön auszudrucken:
+Hier ein etwas komplizierteres Beispiel, um ein Schulzeugnis in einem Dictionary zu speichern und anschliessend schön auszudrucken:
 
 ```Python
 zeugnis = {

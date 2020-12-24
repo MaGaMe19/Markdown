@@ -1,4 +1,4 @@
-# Beispiel zum Zugriff auf das Dictionairy:
+# Beispiel zum Zugriff auf das Dictionary:
 beispiel = {
     "key1": "value1",
     "key2": "value2",
@@ -14,7 +14,7 @@ print(beispiel.values())
 
 print(beispiel.items())
 
-# Beispiele zum Bearbeiten des Dictionairies:
+# Beispiele zum Bearbeiten des Dictionaries:
 beispiel["key2"] = "newValue2"
 print(beispiel["key2"]) # Man erhält nun "newValue2".
 
@@ -60,7 +60,7 @@ spielInfo = {
 print(spielInfo)
 
 
-# Beispiel zu Dictionairies bzw. Listen als Value:
+# Beispiel zu Dictionaries bzw. Listen als Value:
 schüler = {
     "Fritz": {
         "klasse": 7,
