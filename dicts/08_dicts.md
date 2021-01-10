@@ -24,7 +24,7 @@ dictionary = {
 
 ###### * Kein tatsächlich ausführbarer python code, nur zur Darstellung.
 
-Wichtig: Ohne Kommas hinter jedem Eintrag funktioniert das Ganze nicht!  
+Wichtig: Ohne ein Komma hinter jedem Eintrag funktioniert das Ganze nicht!  
 <br>
 
 ---
@@ -49,9 +49,9 @@ ausgabe = beispiel["key2"]
 >>> print(ausgabe)
  value2
 ```
-Das Zugreifen auf Values innerhalb von Dictionaries ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **namen des Keys** in die eckigen Klammern.  
+Das Zugreifen auf Values innerhalb von Dictionaries ist vergleichbar mit dem Zugreifen auf Listen, es werden eckige Klammern verwendet. Anders als bei Listen gibt man jedoch den **Namen des Keys** in die eckigen Klammern.  
 <br>
-Eine andere Methode um die Keys bzw. die Values zu erhalten ist die Verwendung der Funktionen **.keys()**, **.values()** sowie **.items()**:
+Eine andere Methode um die Keys bzw. die Values zu erhalten, ist die Verwendung der Funktionen **.keys()**, **.values()** und **.items()**:
 
 ```Python
 >>> beispiel.keys()
@@ -240,4 +240,4 @@ Wichtig ist hierbei natürlich, dass das Zeugnis in dem oben gezeigten "Format" 
 
 &nbsp;  
 
-##### Copyright &copy; 2020 MaGaMe19. All rights reserved.
+<small>Copyright &copy; 2020 MaGaMe19.</small>
