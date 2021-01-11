@@ -22,7 +22,7 @@ dictionary = {
 } *
 ```  
 
-###### * Kein tatsächlich ausführbarer python code, nur zur Darstellung.
+##### * Kein tatsächlich ausführbarer python code, nur zur Darstellung.
 
 Wichtig: Ohne ein Komma hinter jedem Eintrag funktioniert das Ganze nicht!  
 <br>
