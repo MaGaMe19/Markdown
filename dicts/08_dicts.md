@@ -6,7 +6,7 @@
 
 <br>
 
-Wir können Dictionaries brauchen um Daten mithilfe von _**Key**-**Value**-Paaren_ zu speichern. Man kürzt sie oft mit _dict_ ab.  
+Wir können Dictionaries brauchen um Daten mithilfe von `Key`-`Value`-Paaren zu speichern. Man kürzt sie oft mit _dict_ ab.  
 Der englische Name _dictionary_ bedeutet auf deutsch **Lexikon** bzw. **Nachschlagewerk**, was genau der Sinn der Dictionaries in Python ist.  
 Alle Code-Beispiele dieses Markdown-Dokuments sind in der datei [examples.py](https://github.com/MaGaMe19/Markdown/blob/master/dicts/examples.py) zu finden.  
 <br>
